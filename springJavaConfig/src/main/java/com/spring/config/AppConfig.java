@@ -8,10 +8,10 @@ import com.spring.hello.impl.HelloWorldImpl;
 
 @Configuration
 public class AppConfig {
-
-    @Bean(name = "helloBean")
-    public HelloWorld helloWorld() {
-	return new HelloWorldImpl();
-    }
-
+	
+	@Bean(name = "helloBean")
+	public HelloWorld helloWorld() {
+		return new HelloWorldImpl();
+	}
+	
 }
